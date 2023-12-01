@@ -1,3 +1,7 @@
+body {
+    background-color: #f6e5ca;
+}
+
 .strawhats img {
     width: 100vw;
 }
@@ -15,6 +19,12 @@
 .top h1 {
     justify-content: center;
 }
+
+@media (max-width: 600px) {
+    .top h1 {
+        font-size: 95%;
+    }
+} 
 
 .nav-all {
     display: flex;
@@ -38,12 +48,17 @@
     color: black;
 }
 
+@media (max-width: 600px) {
+    .nav-all a {
+        font-size: 12px;
+    }
+}
+
 .about {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 100vw;
-    background-color: #f6e5ca;
 }
 
 .about-text {
@@ -52,6 +67,12 @@
     padding: 10px;
     color: #140e03;
 }
+@media (max-width: 600px) {
+    .about-text {
+        font-size: 50%;
+    }
+} 
+
 
 .strawhatpt2 img {
     flex-basis: 60%;
@@ -60,13 +81,19 @@
     flex-wrap: wrap;
 }
 
+@media (max-width: 600px) {
+    .strawhatpt2 {
+        width:80%;
+    }
+} 
+
+
 .contact {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 100vw;
     height: 100%;
-    background-color: #f6e5ca;
 }
 
 .strawhat {
@@ -91,16 +118,27 @@
     font-size: 70%;
 }
 
+@media (max-width: 600px) {
+    .contact-text {
+        font-size: 50%;
+    }
+} 
+
 .meet {
     padding-left: 10px;
     padding-top: 20px;
     padding-bottom: 10px;
-    background-color: #f6e5ca;
 }
 
 .meet-text {
     color: #140e03;
 }
+
+@media (max-width: 600px) {
+    .meet-text {
+        font-size: 50%;
+    }
+} 
 
 .bandmembers {
     display: flex;
@@ -124,13 +162,24 @@
     text-align: center;
     font-size: larger;
     color: #140e03;
-    background-color: #f6e5ca;
 }
+
+@media (max-width: 600px) {
+    .luffy {
+        font-size: 60%;
+    }
+} 
 
 .l-text {
     font-size: 25px;
 
 }
+
+@media (max-width: 600px) {
+    .l-text {
+        font-size: 95%;
+    }
+} 
 
 .zoro {
     padding: 20px;
@@ -139,8 +188,24 @@
     text-align: center;
     font-size: larger;
     color: #140e03;
-    background-color: #f6e5ca;
 }
+
+@media (max-width: 600px) {
+    .zoro {
+        font-size: 60%;
+    }
+} 
+
+.z-text {
+    font-size: 25px;
+
+}
+
+@media (max-width: 600px) {
+    .z-text {
+        font-size: 95%;
+    }
+} 
 
 
 .sanji {
@@ -150,8 +215,25 @@
     text-align: center;
     font-size: larger;
     color: #140e03;
-    background-color: #f6e5ca;
 }
+
+@media (max-width: 600px) {
+    .sanji {
+        font-size: 60%;
+    }
+} 
+
+.s-text {
+    font-size: 25px;
+
+}
+
+@media (max-width: 600px) {
+    .s-text {
+        font-size: 95%;
+    }
+} 
+
 
 .nami {
     padding: 20px;
@@ -160,8 +242,24 @@
     text-align: center;
     font-size: larger;
     color: #140e03;
-    background-color: #f6e5ca;
 }
+@media (max-width: 600px) {
+    .nami {
+        font-size: 60%;
+    }
+} 
+
+.n-text {
+    font-size: 25px;
+
+}
+
+@media (max-width: 600px) {
+    .n-text {
+        font-size: 95%;
+    }
+} 
+
 
 .ussop {
     padding: 20px;
@@ -170,16 +268,44 @@
     text-align: center;
     font-size: larger;
     color: #140e03;
-    background-color: #f6e5ca;
 
 }
+@media (max-width: 600px) {
+    .ussop {
+        font-size: 60%;
+    }
+} 
+
+.u-text {
+    font-size: 25px;
+
+}
+
+@media (max-width: 600px) {
+    .u-text {
+        font-size: 95%;
+    }
+} 
+
 
 /* carousel stuff */
 
 .carousel {
     width: 100vw;
-    height: 150vh;
+    height: 90vh;
     position: relative;
+}
+
+@media (max-width: 600px) {
+    .carousel {
+        height: 50vh;
+    }
+}
+
+@media (max-width: 400px) {
+    .carousel {
+        height: 35vh;
+    }
 }
 
 .carousel>ul {
