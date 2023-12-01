@@ -69,11 +69,13 @@
     background-color: #f6e5ca;
 }
 
-.strawhat img {
-    flex-wrap: wrap;
-    flex-basis: 60%;
-    max-width: 100%;
-
+.strawhat {
+    width: 70vw;
+    height: 100%;
+    background-image: url("strawhat.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .contact-text-container {
@@ -82,6 +84,7 @@
 }
 
 .contact-text {
+    width: 100%;
     text-align: center;
     align-self: center;
     color: #140e03;
